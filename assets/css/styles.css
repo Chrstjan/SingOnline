@@ -24,12 +24,14 @@
   align-items: center;
   background: #333;
 }
-.main-container #app .left-side {
+.main-container #app .left-side,
+.main-container #app .search-container {
   padding-left: 0.7rem;
   background: #eee;
   width: 60%;
 }
-.main-container #app .left-side .welcome-text p {
+.main-container #app .left-side .welcome-text p,
+.main-container #app .search-container .welcome-text p {
   max-width: 500px;
 }
 .main-container .main-footer {

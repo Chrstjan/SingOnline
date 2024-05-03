@@ -1,5 +1,4 @@
 import { clearApp } from "../initPage.js";
-
 const appContainer = document.getElementById("app");
 
 export const randSongs = () => {

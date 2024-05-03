@@ -29,7 +29,8 @@
     @include flexContainer(column);
     background: #333;
 
-    .left-side {
+    .left-side,
+    .search-container {
       padding-left: 0.7rem;
       background: #eee;
       width: 60%;
