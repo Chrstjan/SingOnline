@@ -1,0 +1,58 @@
+@import "mixins";
+
+.main-container {
+  //#region main header
+  .main-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    background: #000;
+    color: #fff;
+
+    .main-nav {
+      ul {
+        @include flexContainer(row);
+        gap: 2rem;
+
+        li {
+          list-style-type: none;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  //#endregion main header
+
+  //#region app
+  #app {
+    @include flexContainer(column);
+    background: #333;
+
+    .left-side,
+    .search-container {
+      padding-left: 0.7rem;
+      background: #eee;
+      width: 60%;
+
+      .welcome-text {
+        p {
+          max-width: 500px;
+        }
+      }
+    }
+  }
+  //#endregion app
+
+  //#region main footer
+  .main-footer {
+    background: #000;
+    color: #fff;
+    padding: 0.3rem 0rem;
+
+    h4 {
+      padding-left: 25rem;
+    }
+  }
+  //#endregion main footer
+}

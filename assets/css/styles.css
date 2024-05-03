@@ -1,0 +1,44 @@
+.main-container .main-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  background: #000;
+  color: #fff;
+}
+.main-container .main-header .main-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.main-container .main-header .main-nav ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+.main-container #app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+}
+.main-container #app .left-side,
+.main-container #app .search-container {
+  padding-left: 0.7rem;
+  background: #eee;
+  width: 60%;
+}
+.main-container #app .left-side .welcome-text p,
+.main-container #app .search-container .welcome-text p {
+  max-width: 500px;
+}
+.main-container .main-footer {
+  background: #000;
+  color: #fff;
+  padding: 0.3rem 0rem;
+}
+.main-container .main-footer h4 {
+  padding-left: 25rem;
+}/*# sourceMappingURL=styles.css.map */
